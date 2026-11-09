@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Portal v1.0.4</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #58a6ff;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            border: 2px dashed #21262d;
+            padding: 40px;
+            border-radius: 10px;
+        }
+        #secret-hint {
+            display: none;
+            content: "Looking at the source is step one. But the ciphertext needs decoding!";
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🔒 Access Denied</h1>
+        <p>This portal is restricted to authorized personnel only.</p>
+        <small>System Log: Connection secure. No visual anomalies detected.</small>
+    </div>
+
+    <!-- 
+      CTF HINT: Excellent job inspecting the page! 
+      Here is your encoded payload: U1RMR3tjM3J0X2QxcmVjdDF2M19mMTRnfQ==
+      
+      Note: The agent loves using standard web encoding (Base64).
+    -->
+
+</body>
+</html>
